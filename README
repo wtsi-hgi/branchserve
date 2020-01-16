@@ -1,1 +1,0 @@
-This repository combines Lustretree and Treeserve into one convenient source. Just clone, put an mpistat output file called "input.gz" in the root directory, and run `docker-compose up`. 
