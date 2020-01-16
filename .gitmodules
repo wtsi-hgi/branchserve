@@ -1,0 +1,6 @@
+[submodule "hgi-reports"]
+	path = hgi-reports
+	url = https://github.com/wtsi-hgi/hgi-reports.git
+[submodule "treeserve"]
+	path = treeserve
+	url = https://github.com/wtsi-hgi/treeserve.git
