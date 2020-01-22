@@ -2,14 +2,12 @@ version: '3'
 
 services:
   treeserve:
-    build: 
-      context: .
-      dockerfile: Dockerfile
+    image: mercury/treeserve
     volumes:
       - ./input.gz:/docker/input.gz
     restart: always
     ports:
-      - "8080:8080"
+      - "8080:80"
     networks: [apps]
   frontend:
     image: nginx
