@@ -5,8 +5,8 @@ services:
     image: mercury/treeserve
     volumes:
       - ./input.gz:/docker/input.gz
-      - /etc/group:/etc/group
-      - /etc/passwd:/etc/passwd
+      - ./group:/etc/group
+      - ./passwd:/etc/passwd
     restart: always
     ports:
       - "8080:80"
